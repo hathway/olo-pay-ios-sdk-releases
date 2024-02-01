@@ -13,7 +13,7 @@ let package = Package(
             targets: ["OloPaySDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/hathway/stripe-ios", .upToNextMajor(from: "23.0.0"))
+        .package(url: "git@github.com:hathway/stripe-ios", .upToNextMajor(from: "23.0.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
